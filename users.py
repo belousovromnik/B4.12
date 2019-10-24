@@ -68,8 +68,8 @@ def request_data():
     last_name = input("А теперь фамилию: ")
     gender = input("Пол: ")
     email = input("Адрес электронной почты: ")
-    birthdat = input("День рождения: ")
-    height = float(input("Рост: "))
+    birthdat = input("День рождения, в формате ГГГГ-ММ-ДД: ")
+    height = float(input("Рост в см, напр. 175: "))
     # создаем нового пользователя
     user = User(
         first_name=first_name,
